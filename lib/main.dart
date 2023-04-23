@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
           MoviesList movies = MoviesList.fromJson(jsonDecode(value.body));
           print(movies.toString());
         }
-        print('object');
+        print('Erro');
       },
     );
   }
